@@ -1,0 +1,1 @@
+ruby /home/passport/huangyansheng/pipe2url/bin/replay_record.rb "mcpack2://0.0.0.0:5234/?is_forward=true&is_record=true&fwd_addr=127.0.0.1&fwd_port=9234&name=client" "mcpack2://0.0.0.0:2222/?is_forward=true&is_record=true&fwd_addr=127.0.0.1&fwd_port=1111&name=stub" id=1 &

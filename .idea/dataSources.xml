@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="402130745">
+    <data-source source="LOCAL" name="Rails replay: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="de4cd0bd-549f-4fd6-840e-c33ab6bc81c2">
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\seven\Dropbox\sihanjishu\PeckerTesting\testing-search\iso8583\PTP\replay\db\test.sqlite3</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails replay: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="2dd1249b-e797-4b10-9a8e-4e1e291f4c7c">
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\seven\Dropbox\sihanjishu\PeckerTesting\testing-search\iso8583\PTP\replay\db\development.sqlite3</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails replay: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="2d598ca5-9741-41ca-b65d-e52ed226da84">
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\seven\Dropbox\sihanjishu\PeckerTesting\testing-search\iso8583\PTP\replay\db\test.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails replay: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="b2fe5c58-6ec5-4e2a-87fa-d41567c51b14">
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\seven\Dropbox\sihanjishu\PeckerTesting\testing-search\iso8583\PTP\replay\db\development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

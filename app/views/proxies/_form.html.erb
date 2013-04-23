@@ -1,0 +1,49 @@
+<%= form_for @proxy, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :name, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :name, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :protocol, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :protocol, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :forward_ip, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :forward_ip, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :forward_port, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :forward_port, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :bind_port, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :bind_port, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :project_id, :class => 'control-label' %>
+    <div class="controls">
+	    <%= if params[:project_id]
+			f.number_field :project_id, :class => 'number_field', :value=>params[:project_id]
+		else
+			f.number_field :project_id, :class => 'number_field' 
+		end
+	%>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                proxies_path, :class => 'btn' %>
+  </div>
+<% end %>

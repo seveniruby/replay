@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  protocol: MyString
+  forward_ip: MyString
+  forward_port: 1
+  bind_port: 1
+  project: 
+
+two:
+  name: MyString
+  protocol: MyString
+  forward_ip: MyString
+  forward_port: 1
+  bind_port: 1
+  project: 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails replay: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="2d598ca5-9741-41ca-b65d-e52ed226da84">
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:D:\seven\Dropbox\sihanjishu\PeckerTesting\testing-search\iso8583\PTP\replay\db\test.sqlite3</jdbc-url>
+    <libraries/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails replay: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="b2fe5c58-6ec5-4e2a-87fa-d41567c51b14">
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:D:\seven\Dropbox\sihanjishu\PeckerTesting\testing-search\iso8583\PTP\replay\db\development.sqlite3</jdbc-url>
+    <libraries/>
+  </data-source>
+</component>
