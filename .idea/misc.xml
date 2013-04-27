@@ -16,7 +16,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="jruby-1.7.3-p385" project-jdk-type="JRUBY_SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="ruby-1.9.2-p0" project-jdk-type="RUBY_SDK" />
   <component name="SvnBranchConfigurationManager">
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>

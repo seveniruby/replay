@@ -5,9 +5,10 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'activerecord-jdbcsqlite3-adapter'
+#gem 'activerecord-jdbcsqlite3-adapter'
+gem 'sqlite3'
 
-gem 'jruby-openssl'
+#gem 'jruby-openssl'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -23,7 +24,8 @@ end
 
 gem 'jquery-rails'
 gem "twitter-bootstrap-rails"
-gem 'proxy_server', '>= 0.0.6'
+#gem 'proxy_server', '>= 0.0.6'
+gem 'proxy_server', :git => 'https://github.com/seveniruby/proxyserver.git'
 gem 'http_parser.rb'
 gem 'eventmachine'
 gem 'minitest-reporters'
